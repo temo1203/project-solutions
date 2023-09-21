@@ -83,6 +83,9 @@ button {
   transition: 0.2s linear;
   cursor: pointer;
 }
+span {
+  color: hsl(224, 23%, 55%);
+}
 button:hover {
   background-color: hsl(224, 23%, 55%);
   transition: 0.2s linear;
