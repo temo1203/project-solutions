@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+    width: 350px;
+  }
+  .main > img:first-child {
+    content: url(/product-preview-card-component-main/images/image-product-mobile.jpg);
+  }
+}
