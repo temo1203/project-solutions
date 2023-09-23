@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,700&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background-color: #ffff;
+}
+button {
+  border: none;
+}
+h4 {
+  color: hsl(0, 1%, 44%);
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+input {
+  width: 150px;
+  height: 52px;
+  padding-left: 25px;
+  font-size: 25px;
+}
+.main {
+  background-color: #ffff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  width: 800px;
+  padding: 50px;
+  border-radius: 15px 15px 100px 15px;
+}
+.calculate {
+  display: flex;
+  gap: 30px;
+}
+.btn button {
+  background-color: hsl(259, 100%, 65%);
+  padding: 15px;
+  border-radius: 100%;
+  width: 74px;
+  height: 72px;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  align-items: center;
+}
+.btn img {
+  width: 40px;
+  height: 40px;
+}
+.line {
+  width: 100%;
+  border: 1px solid hsl(0, 1%, 44%);
+}
+span {
+  color: hsl(259, 100%, 65%);
+}
+.done {
+  line-height: 100px;
+}
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+  font-style: italic;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
