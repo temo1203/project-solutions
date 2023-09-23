@@ -13,13 +13,12 @@ function calculateAge() {
   var daySpan = document.querySelector(".done h1:nth-child(3) span");
 
   let yearValue = parseInt(document.getElementById("year").value);
-  let monthValue = parseInt(document.getElementById("month").value) - 1; // Adjust monthValue by -1 since months are 0-based in JavaScript
+  let monthValue = parseInt(document.getElementById("month").value) - 1;
   let daysValue = parseInt(document.getElementById("days").value);
   var dob = new Date(yearValue, monthValue, daysValue);
   var today = new Date();
 
   if (isNaN(yearValue) || isNaN(monthValue) || isNaN(daysValue)) {
-    // Input validation: Check if any input is not a number
     console.log(
       "Invalid input. Please enter valid numbers for year, month, and days."
     );
