@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+  .main {
+    grid-template-columns: 1fr !important;
+  }
+  h1 {
+    margin-left: 0px !important;
+  }
+  .result {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

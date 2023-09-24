@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  left: 40%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.result > h2:first-child {
+  color: hsl(241, 100%, 89%);
+}
+.main {
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.result {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  padding: 50px;
+  border-radius: 25px;
+  text-align: center;
+}
+h1 {
+  font-size: 65px;
+  line-height: 32px;
+  color: #ffff;
+  background: linear-gradient(
+    to bottom,
+    hsla(241, 72%, 46%, 0),
+    hsla(256, 72%, 46%, 1)
+  );
+  padding: 50px;
+  padding-top: 50px;
+  padding-top: 30px;
+  border-radius: 100%;
+  width: 181px;
+  text-align: center;
+  padding-top: 55px;
+  margin: 30px 0px;
+  margin-left: 35px;
+}
+h1 span {
+  color: hsl(241, 100%, 89%);
+  font-size: 20px;
+}
+.result > h2:nth-child(3) {
+  color: #ffff;
+}
+p {
+  margin-top: 25px;
+  color: hsl(241, 100%, 89%);
+}
+.summary {
+  color: hsl(224, 30%, 27%);
+  padding: 45px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin-left: -17px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 30px 0px;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+ul > li:first-child {
+  background-color: rgba(255, 0, 0, 0.082);
+  color: hsl(0, 100%, 67%);
+}
+ul > li:nth-child(2) {
+  background-color: rgba(255, 255, 0, 0.226);
+  color: hsl(39, 100%, 56%);
+}
+ul > li:nth-child(3) {
+  background-color: rgba(0, 128, 0, 0.13);
+  color: hsl(166, 100%, 37%);
+}
+ul > li:nth-child(4) {
+  background-color: rgba(0, 0, 255, 0.082);
+  color: hsl(234, 85%, 45%);
+}
+ul h4 {
+  color: hsl(224, 30%, 27%);
+}
+ul h4 span {
+  color: hsl(241, 100%, 89%);
+}
+button {
+  width: 100%;
+  color: #ffff;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
