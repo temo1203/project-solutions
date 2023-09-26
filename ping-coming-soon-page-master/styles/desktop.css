@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,600;1,700&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+*:focus {
+  outline: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+.main {
+  text-align: center;
+  padding: 40px;
+}
+.main > img:first-child {
+  margin-bottom: 50px;
+}
+h1 {
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+h1 span {
+  color: hsl(209, 33%, 12%);
+  font-weight: 600;
+}
+h3 {
+  margin: 25px 0px;
+  color: #000;
+  font-weight: 300;
+}
+input {
+  width: 350px;
+  height: 45px;
+  border-radius: 25px;
+  padding-left: 25px;
+  border: 1px solid hsl(223, 100%, 88%);
+  color: hsl(223, 100%, 88%);
+  margin-bottom: 100px;
+}
+.main div {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+  border: none;
+  width: 170px;
+  color: #ffff;
+  height: 45px;
+  border-radius: 25px;
+  font-weight: 600;
+  background-color: hsl(223, 87%, 63%);
+  box-shadow: hsl(223, 87%, 63%) 0px 6px 18px;
+}
+.lite {
+  width: 600px;
+  margin-bottom: 120px;
+}
+ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+li {
+  color: hsl(223, 87%, 63%);
+  padding: 5px;
+  border-radius: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+ion-icon {
+  width: 20px;
+  height: 20px;
+}
+h5 {
+  color: hsl(0, 0%, 59%);
+}
